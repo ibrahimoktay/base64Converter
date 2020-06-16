@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "base64Converter",
+    products: [
+        .executable(name: "base64Converter", targets: ["base64Converter"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.1.0"),
     ],
