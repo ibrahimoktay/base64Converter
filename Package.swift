@@ -9,7 +9,7 @@ let package = Package(
         .executable(name: "base64Converter", targets: ["base64Converter"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.1.0"),
+        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.2.0"),
     ],
     targets: [
         .target(
